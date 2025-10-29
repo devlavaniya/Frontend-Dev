@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        font-family: sans-serif;
+        text-align: center;
+       }
+       .wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+       }
+
+       .box {
+        width: 100px;
+        height: 100px;
+        background-color: aliceblue;
+        border: 2px solid black;
+       }
+        .center{
+            transform-origin: center;
+            transform: rotate(30deg);
+        }
+        .top-left{
+            transform-origin: top left;
+            transform: rotate(30deg);
+        }
+         .bottom-right{
+            transform-origin: bottom right;
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <h2>transform-origin examples</h2>
+    <p>notice how each box rotates differently based on its origin point:</p>
+    <div class="wrapper"> 
+        <div class="box center">center</div>
+        <div class="box top-left">top-left</div>  
+    </div>
+    
+</body>
+</html>

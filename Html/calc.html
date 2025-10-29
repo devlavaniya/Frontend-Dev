@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 50px;
+            background: rgb(22, 21, 21);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cal{
+            background: black;
+            border-radius: 20px;
+            
+            height: 300px;
+            width: 300px;
+            border:none;
+        }
+        .lower{
+            height: 365px;
+            width: 96%;
+            margin: 5px;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+
+        .butt{
+            height: 60px;
+            width: 60px;
+            margin: 5px;
+            border-radius: 60px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            font-weight: 500;
+            background: rgb(81, 79, 79);
+            border: none;
+        }
+        .button{
+            height: 30px;
+            width: 30px;
+            margin: 5px;
+            border-radius: 60px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 500;
+            background: rgb(85, 83, 83);
+            border: none;
+        }
+
+        .upper{
+             width: 88%;
+             font-size: 40px;
+            height: 200px;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            color: white;
+            bottom: 0px;
+            right: 0px;
+            background: #000;
+            border-radius: 20px;
+        }
+        .edge{
+             
+             font-size: 2px;
+            height: 0.4px;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            color: white;
+            bottom: 0px;
+            right: 0px;
+            background: #000;
+            border-radius: 20px;
+            margin-left: 5px;
+            padding-left: 5px;
+            margin-top: 2px;
+            
+        }
+        .eddge{
+             
+             font-size: 2px;
+            height: 0.4px;
+            display: flex;
+            align-items: start;
+            justify-content: end;
+            color: white;
+            bottom: 0px;
+            right: 0px;
+            background: #000;
+            border-radius: 20px;
+            margin-right:5px ;
+            padding-right: 5px;
+            margin-top: 2px;
+            
+        }
+    </style>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="cal">
+       
+         <div class="edge">
+            <div class="button" ><i class='bxr  bx-menu'  ></i> 
+            </div>
+        </div>
+         <div class="eddge">
+            <div class="button" ><i class='bxr  bx-calculator'  ></i> 
+            </div>
+        </div>
+        <div class="upper">0</div>
+        <div class="lower">
+            <div class="butt" style="background-color:rgb(111, 109, 109)"><i class='bxr  bx-backspace'  ></i> </div>
+            <div class="butt" style="background-color:rgb(111, 109, 109)">AC</div>
+            <div class="butt"style="background-color:rgb(111, 109, 109)"><i class='bxr  bx-percentage'  ></i> </div>
+            <div class="butt" style="background-color: orange;">÷</div>
+            <div class="butt">7</div>
+            <div class="butt">8</div>
+            <div class="butt">9</div>
+            <div class="butt"style="background-color: orange;">*</div>
+            <div class="butt">4</div>
+            <div class="butt">5</div>
+            <div class="butt">6</div>
+            <div class="butt"style="background-color: orange;">-</div>
+            <div class="butt">1</div>
+            <div class="butt">2</div>
+            <div class="butt">3</div>
+            <div class="butt"style="background-color: orange;">+</div>
+            <div class="butt">+/-</div>
+            <div class="butt">0</div>
+            <div class="butt">.</div>
+            <div class="butt"style="background-color: orange;">=</div>
+        </div>
+    </div>
+</body>
+</html>
